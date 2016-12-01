@@ -4,7 +4,6 @@ $(function() {
             form.addEventListener('keydown', function(e) {
                 if (e.keyCode == 13) {
                     e.preventDefault();
-                    $("#form_wrapper").removeClass('form_wrapper_center');
                     Google();
                 }
             });
