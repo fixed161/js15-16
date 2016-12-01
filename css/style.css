@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -350px;
+    width: 700px;
+    height: 200px;
+    border: 1px solid #d3d3d3;
+}
+
+.form-control {
+    margin: 20px auto;
+    width: 500px;
+    height: 30px;
+}
+
+.searchButton {
+    width: 100px;
+    height: 50px;
+}
+
+
+
+.row a{
+    color: #1a0dab;
+    text-decoration: none;
+}
+.title_link:hover{
+    text-decoration: underline;
+}
+
+.link{
+    color: #006621;
+}
+.text_snippet{
+    color: #1a0dab;
+}
